@@ -1,0 +1,156 @@
+body {
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: Kumbh Sans;
+    color: hsl(238, 29%, 16%);
+}
+@media screen and (min-width:440px) {
+
+#mobilehero {
+    display: none;
+}
+.container {
+    background-color: white;
+    margin: 5rem auto;
+    display: block;
+    width: 75rem;
+    padding: 2rem;
+    padding-left: 0rem;
+    height: 35rem;
+    border-radius: 1rem;
+    -moz-box-shadow: 0px 40px 40px #00000050;
+    -webkit-box-shadow: 0px 40px 40px #00000050;
+    box-shadow: 0px 40px 40px #00000050;
+}
+#hero {
+    float: left;
+    margin-top: 6rem;
+    padding: 0;
+}
+#pattern {
+    position: absolute;
+    width: 40rem;
+    left: 9rem;
+}
+#box {
+    position: absolute;
+    top: 20rem;
+    left: 15rem;
+    
+}
+h1 {
+    font-size: 2.5rem;
+}
+.faqs {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 38rem;
+}
+
+#hidden {
+    color: gray;
+    width: 80%;
+    line-height: 2;
+    display: none;
+    transition: all 0.25s ease-out;
+}
+span {
+    padding: 1.5rem 0rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.397);
+}
+span:hover {
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+}
+
+button {
+    float: right;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+#btn_down:hover {
+    scale: 1.5;
+    transition: all 0.25s ease-in-out;
+}
+#btn_down:active {
+    scale: 1.25;
+    transition: all 0.25s ease-in;
+}
+#question {
+    font-weight: 400;
+}
+}
+@media screen and (max-width:440px) {
+
+
+    .container {
+        background-color: white;
+        margin: 10rem auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        padding: 2rem;
+        padding-top: 7rem;
+        padding-left: 0rem;
+        border-radius: 1rem;
+        -moz-box-shadow: 0px 40px 40px #00000050;
+        -webkit-box-shadow: 0px 40px 40px #00000050;
+        box-shadow: 0px 40px 40px #00000050;
+    }
+
+    #hero {
+        display: none;
+    }
+    #mobilehero {
+        position: absolute;
+        top: 1rem;
+        width: 20rem;
+        right: 3.2rem;
+    }
+    #pattern {
+        display: none;
+    }
+
+    #box {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .faqs {
+        float: right;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    #hidden {
+        color: gray;
+        width: 80%;
+        line-height: 2;
+        display: none;
+        transition: all 0.25s ease-out;
+    }
+
+    span {
+        padding: 1.5rem 0rem;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.397);
+    }
+    button {
+        float: right;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+}
